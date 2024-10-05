@@ -7,6 +7,7 @@ int main() {
             printf("One");
         case 2:
             printf("Two");
+            break;
         case 3:
             printf("Three");
     }
