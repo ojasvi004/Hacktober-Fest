@@ -1,9 +1,10 @@
 #include <stdio.h>
- 
-int main() {
+
+int main()
+{
 	int x;
-    scanf("%d", &x); 
+	scanf("%d", &x);
 	char c;
-    scanf("%c", &c);
+	scanf("%s", &c);
 	return 0;
 }
