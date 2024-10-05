@@ -1,6 +1,6 @@
 class Main {
     public static void main(String[] args) {
-        boolean isValid = True;
+        boolean isValid = true;
         System.out.println(isValid);
     }
 }
