@@ -5,8 +5,8 @@ True = 1
 if True: 
     print("This will cause an error because 'True' is a reserved keyword.")
 
-def for(x):
-    return x * 2
+def None(for(x)):
+return(x * 2)
 
 result = for(5)
 print(result)  
