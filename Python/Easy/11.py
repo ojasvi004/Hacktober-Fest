@@ -1,7 +1,8 @@
 def outer():
+    global x 
     x = 10
     def inner():
-        global x  # Error: x is local to outer and cannot be made global
+        # Error: x is local to outer and cannot be made global
         x = 5
     inner()
     print(x)
