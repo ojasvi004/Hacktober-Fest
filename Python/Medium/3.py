@@ -1,3 +1,3 @@
 name = "John"
-age = 25
+age = "25"
 print("Name: " + name + ", Age: " + age)  
