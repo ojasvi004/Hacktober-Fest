@@ -4,7 +4,7 @@ class Animal:
 
 class Dog(Animal):
     def speak(self, sound):
-           print(sound)
+        print(sound)
 
 dog = Dog()
-dog.speak()  
+dog.speak("bark")  
