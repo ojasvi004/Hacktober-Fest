@@ -1,12 +1,14 @@
 #include <stdio.h>
 
-struct student {
+struct student
+{
     char name[20];
     int age;
 };
 
-int main() {
+int main()
+{
     struct student s[3] = {{"John", 20}, {"Alice", 22}, {"Bob", 23}};
-    printf("Name: %s, Age: %d", s[4].name, s[4].age);
+    printf("Name: %s, Age: %d", s[2].name, s[2].age);
     return 0;
 }
